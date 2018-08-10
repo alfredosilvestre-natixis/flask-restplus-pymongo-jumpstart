@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.6"
+
+services:
+  - mongodb
+
+install:
+  - travis_retry pip install -r requirements.txt
+  - travis_retry pip install coveralls
+
+script:
+  py.test --cov=app
+
+after_success:
+  coveralls
