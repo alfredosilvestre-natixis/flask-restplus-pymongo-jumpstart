@@ -91,7 +91,7 @@ class Dog(Resource):
         dog_obj = DogDto.get_dog(dog_id)
         if dog_obj:
             DogDto.delete_dog(dog_id)
-            LOG.info('Deleted dog: %d', str(dog_obj))
+            LOG.info('Deleted dog: %s', str(dog_obj))
             return None, 204
         LOG.info('Dog not found: %s', str(dog_id))
         return None, 404
