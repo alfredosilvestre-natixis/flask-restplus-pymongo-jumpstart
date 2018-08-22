@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/frol/flask-restplus-server-example.svg)](https://travis-ci.org/alfredosilvestre-natixis/flask-restplus-pymongo-jumpstart.svg)
 [![Coverage Status](https://coveralls.io/repos/github/alfredosilvestre-natixis/flask-restplus-pymongo-jumpstart/badge.svg?branch=master)](https://coveralls.io/github/alfredosilvestre-natixis/flask-restplus-pymongo-jumpstart?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cd8bbc6d04a54f1cac30fd7e02344e94)](https://www.codacy.com/project/alfredosilvestre-natixis/flask-restplus-pymongo-jumpstart/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alfredosilvestre-natixis/flask-restplus-pymongo-jumpstart&amp;utm_campaign=Badge_Grade_Dashboard)
 
 Flask-RESTplus PyMongo Jumpstart
 ==========================
